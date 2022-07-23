@@ -11,7 +11,7 @@ import SwiftUI
 struct PreviewSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(mesaj: "Zort")
+            ContentView()
         }
     }
 }

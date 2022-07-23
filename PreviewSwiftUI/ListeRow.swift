@@ -36,9 +36,12 @@ struct ListeRow: View {
 struct ListeRow_Previews: PreviewProvider {
     static var previews: some View {
         ListeRow(sehir: ankara).previewLayout(.sizeThatFits)
+            .environment(\.sizeCategory, .extraExtraExtraLarge)
         
         ListeRow(sehir: istanbul).previewLayout(.sizeThatFits)
+            .environment(\.sizeCategory, .extraExtraExtraLarge)
         
         ListeRow(sehir: izmir).previewLayout(.sizeThatFits)
+            
     }
 }

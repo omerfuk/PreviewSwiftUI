@@ -24,3 +24,6 @@ let istanbul = City(isim: "Şehir: İstanbul", gorselIsim: "istanbul", bolge: "B
 let ankara = City(isim: "Şehir: Ankara", gorselIsim: "ankara", bolge: "Bölge: İç Anadolu")
 
 let izmir = City(isim: "Şehir: İzmir", gorselIsim: "izmir", bolge: "Bölge: Ege")
+
+
+let sehirListesi = [istanbul, ankara, izmir]
