@@ -11,6 +11,8 @@
 		DEA8517B288BF6DD00F9ED24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA8517A288BF6DD00F9ED24 /* ContentView.swift */; };
 		DEA8517D288BF6DF00F9ED24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA8517C288BF6DF00F9ED24 /* Assets.xcassets */; };
 		DEA85180288BF6DF00F9ED24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA8517F288BF6DF00F9ED24 /* Preview Assets.xcassets */; };
+		DEA85187288BF84400F9ED24 /* ListeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA85186288BF84400F9ED24 /* ListeRow.swift */; };
+		DEA85189288BF93700F9ED24 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA85188288BF93700F9ED24 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DEA8517A288BF6DD00F9ED24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DEA8517C288BF6DF00F9ED24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA8517F288BF6DF00F9ED24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEA85186288BF84400F9ED24 /* ListeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeRow.swift; sourceTree = "<group>"; };
+		DEA85188288BF93700F9ED24 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				DEA8517A288BF6DD00F9ED24 /* ContentView.swift */,
 				DEA8517C288BF6DF00F9ED24 /* Assets.xcassets */,
 				DEA8517E288BF6DF00F9ED24 /* Preview Content */,
+				DEA85186288BF84400F9ED24 /* ListeRow.swift */,
+				DEA85188288BF93700F9ED24 /* City.swift */,
 			);
 			path = PreviewSwiftUI;
 			sourceTree = "<group>";
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEA85187288BF84400F9ED24 /* ListeRow.swift in Sources */,
 				DEA8517B288BF6DD00F9ED24 /* ContentView.swift in Sources */,
+				DEA85189288BF93700F9ED24 /* City.swift in Sources */,
 				DEA85179288BF6DD00F9ED24 /* PreviewSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

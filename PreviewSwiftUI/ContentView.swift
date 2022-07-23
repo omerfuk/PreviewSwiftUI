@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    var mesaj: String
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack{
+            Text(mesaj)
+                .padding()
+            
+            Text(mesaj)
+                .padding()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(mesaj: "Zort")
     }
 }
